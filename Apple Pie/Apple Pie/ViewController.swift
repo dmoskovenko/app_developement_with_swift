@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     updateGameState()
   }
   
-  var listOfWords = ["animal", "airport", "answer", "brother", "country", "education", "example", "family", "letter", "magic", "money", "mountain", "number", "picture", "science", "space", "swift", "thriller", "watch", "wind"]
+  var listOfWords = ["brother", "country", "education", "example"]
   let incorrectMovesAllowed = 7
   var totalWins = 0 {
     didSet {
